@@ -1,0 +1,29 @@
+{
+  "name": "client_mcp_demo",
+  "version": "1.1.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "start": "node dist/clients/anthropic.js",
+    "start:openai": "node dist/clients/openai.js",
+    "start:mock": "node dist/clients/mock.js",
+    "test:mock": "./scripts/test-mock.sh",
+    "test:openai": "./scripts/test-openai.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.56.0",
+    "@modelcontextprotocol/sdk": "^1.15.0",
+    "dotenv": "^17.1.0",
+    "openai": "^5.8.2"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.10",
+    "typescript": "^5.8.3"
+  }
+}
