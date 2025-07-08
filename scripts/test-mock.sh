@@ -12,10 +12,10 @@ fi
 # 运行模拟版本
 echo "启动模拟版本客户端..."
 echo "您可以尝试以下查询："
-echo "- 你好"
-echo "- 帮我加两个数字"
-echo "- 现在几点了"
-echo "- 生成一个随机数"
+echo "- get-alerts NY"
+echo "- get-alerts CA"
+echo "- get-forecast 40.7128 -74.0060"
+echo "- get-forecast 34.0522 -118.2437"
 echo "- quit (退出)"
 echo ""
 
